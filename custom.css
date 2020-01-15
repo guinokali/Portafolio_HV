@@ -1,0 +1,36 @@
+/*
+---------------------------------------
+colores
+---------------------------------------
+*/
+:root{
+
+    --blue-navy: #05205d;
+    --blue-light:#3155a7;
+    --brown-leather:#AB987A;
+    --orange-coral:#FF833D;
+    --white-egg:#f5f5f5;
+    --black-dark:#000000;
+}
+/*
+-----------------------------------------
+header
+-----------------------------------------
+*/
+.header-area .main-menu,
+.header-area .main-menu .dropdown-menu{
+    background: var(--orange-coral);
+    box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.1);
+}
+.header-area .main-menu .navbar{
+   height:auto;
+}
+.header-area .main-menu .navbar .nav-link{
+    font-size: 16px;
+    color:var(--black-dark);
+    padding: 8px;
+ }
+ .header-area .main-menu .navbar .nav-link:hover{
+    font-style: bold;
+    font-weight: 600;
+ }
