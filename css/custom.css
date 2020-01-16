@@ -7,6 +7,7 @@ colores
 
     --blue-navy: #05205d;
     --blue-light:#3155a7;
+    --blue-light:#3155a7;
     --brown-leather:#AB987A;
     --orange-coral:#FF833D;
     --white-egg:#f5f5f5;
@@ -45,12 +46,6 @@ header
   z-index: 1;
   padding-bottom: 42px;
   margin-bottom: 58px;
-  background: #3155a7;
-}
-.main-info .container {
-  border-radius: 12px;
-  position: relative;
-  bottom: -100px;
   background: rgba(252,234,187,1);
   background: -moz-linear-gradient(-45deg, rgba(252,234,187,1) 0%, rgba(252,205,77,1) 50%, rgba(248,181,0,1) 51%, rgba(251,223,147,1) 100%);
   background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(252,234,187,1)), color-stop(50%, rgba(252,205,77,1)), color-stop(51%, rgba(248,181,0,1)), color-stop(100%, rgba(251,223,147,1)));
@@ -59,9 +54,18 @@ header
   background: -ms-linear-gradient(-45deg, rgba(252,234,187,1) 0%, rgba(252,205,77,1) 50%, rgba(248,181,0,1) 51%, rgba(251,223,147,1) 100%);
   background: linear-gradient(135deg, rgba(252,234,187,1) 0%, rgba(252,205,77,1) 50%, rgba(248,181,0,1) 51%, rgba(251,223,147,1) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fceabb', endColorstr='#fbdf93', GradientType=1 );
+  
+}
+.main-info .container {
+  border-radius: 12px;
+  position: relative;
+  bottom: -100px;
+  background:white;
   padding-top: 28px;
   padding-bottom: 28px;
-  box-shadow: 0 20px 80px 0 rgba(153, 153, 153, .3);
+  -webkit-box-shadow: 32px 25px 29px -6px rgba(0,0,0,1);
+  -moz-box-shadow: 32px 25px 29px -6px rgba(0,0,0,1);
+  box-shadow: 32px 25px 29px -6px rgba(0,0,0,1);
 }
 .main-info .container .img-col .img-container > img {
   width: 90%;
@@ -99,3 +103,47 @@ header
   font-size: 40px;
   color: var(--blue-navy);
 }
+/*
+===============================================
+SKILLS SECTION
+==============================================
+*/
+.skill-item{
+  margin-bottom: 24px;
+}
+.skill-item .text{
+  margin-bottom: 8px;
+}
+.skill-item .progress .progress-bar{
+  height: 10px;
+  border-radius: 5px;
+  vertical-align: middle;
+  align-self: center;
+  background: #d4e4ef;
+  background: -moz-linear-gradient(left, #d4e4ef 0%, #000059 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, #d4e4ef), color-stop(100%, #000059));
+  background: -webkit-linear-gradient(left, #d4e4ef 0%, #000059 100%);
+  background: -o-linear-gradient(left, #d4e4ef 0%, #000059 100%);
+  background: -ms-linear-gradient(left, #d4e4ef 0%, #000059 100%);
+  background: linear-gradient(to right, #d4e4ef 0%, #000059 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d4e4ef', endColorstr='#000059', GradientType=1 );}
+
+  /*
+  =============================================
+  PORTFOLIO SECTION
+  ==============================================
+  */
+  .card-container .card{
+    max-width: 360px;
+    margin-top: 16px;
+  }
+  .card-container .card i{
+    font-size: 80PX;
+    color: var(--blue-navy);
+  }
+  .card-container .card h5{
+    margin-top: 12px;
+    margin-bottom: 8px;
+    opacity: 0.8;
+
+  }
