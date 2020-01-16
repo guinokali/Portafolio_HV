@@ -5,28 +5,75 @@ colors
 */
 :root {   
 }
+
+@media (max-width: 575.98px) {
+  .header-area .main-menu .navbar {
+    height: auto;
+  }
+  .header-area .main-menu .navbar .nav-link {
+    padding: .5rem 1rem;
+  }
+  
+}
 /*
 ::::::::::::::::::::::::::::::::::::::::::::::
 Small devices (landscape phones, 576px and up)
 ::::::::::::::::::::::::::::::::::::::::::::::
 */
-@media (min-width: 576px) {   }
+@media (min-width: 576px) {
+    .header-area .main-menu .navbar .nav-link {
+      padding: .5rem 1rem;
+    }
+  }
 /*
 ::::::::::::::::::::::::::::::::::::::::::::::
 Medium devices (tablets, 768px and up)
 ::::::::::::::::::::::::::::::::::::::::::::::
 */
-@media (min-width: 768px) {   }
+@media (min-width: 768px) {
+    .header-area .main-menu .navbar .nav-link {
+        font-size: 16px;
+      }
+      .main-info {
+        padding-bottom: 42px;
+        margin-bottom: 78px;
+      }
+      .main-info .container {
+        bottom: -120px;
+      }
+  }
 /*
 ::::::::::::::::::::::::::::::::::::::::::::::
 Large devices (desktops, 992px and up)
 ::::::::::::::::::::::::::::::::::::::::::::::
 */
-@media (min-width: 992px) {   }
+@media (min-width: 992px) { 
+  .header-area .main-menu .navbar .nav-link {
+    font-size: 16px;
+  }
+  .main-info {
+    padding-bottom: 42px;
+    margin-bottom: 78px;
+  }
+  .main-info .container {
+    bottom: -120px;
+  }
+  }
 /*
 ::::::::::::::::::::::::::::::::::::::::::::::
 Extra large devices (large desktops, 1200px and up)
 ::::::::::::::::::::::::::::::::::::::::::::::
 */
-@media (min-width: 1200px) {   }
+@media (min-width: 1200px) {
+  .header-area .main-menu .navbar .nav-link {
+    font-size: 16px;
+  }
+  .main-info {
+    padding-bottom: 42px;
+    margin-bottom: 200px;
+  }
+  .main-info .container {
+    bottom: -120px;
+  }
+   }
 
